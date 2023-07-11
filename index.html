@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Desafio to do list</title>
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <div class="main-div">
+        <h1>Lista de tareas</h1>
+
+        <input type="text" id="taskInput" placeholder="Ingrese una tarea">
+        <button onclick="addTask()">Agregar a pendientes</button>
+
+        <ul id="taskList">
+
+        </ul>
+    </div>
+
+
+    <div class="secondary-div">
+        <p>Total de tareas: <span id="totalTasks">0</span></p>
+
+        <p>Total tareas completadas: <span id="completedTasks">0</span></p>
+    </div>
+
+</div>
+
+    <script src="./assets/script.js"></script>
+
+</body>
+
+</html>
